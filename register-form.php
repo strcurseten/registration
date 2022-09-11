@@ -4,9 +4,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     </head>
     <body>
-        <div class="w-75 p-3">
-            <h1>Registration Form</h1>
-            <form action="upload-handler.php" enctype="multipart/form-data" method="POST">
+        <div class="card-transparent mx-auto my-5 p-5" style="width: 1000px;">
+            <h1 class="py-5 text-center">Registration Form</h1>
+            <form action="index.php" enctype="multipart/form-data" method="POST">
                 <div class="form-group row">
                     <label for="name" class="col-sm-2 col-form-label">Complete Name</label>
                     <div class="col-sm-10">
@@ -37,7 +37,7 @@
                     <input type="file" class="form-control" id="picture_path" name="picture_path">
                     </div>
                 </div>
-                <div class="text-center">
+                <div class="text-center py-3">
                     <button type="submit" class="btn btn-primary">Submit Registration</button>
                 </div>
             </form>
